@@ -10,11 +10,11 @@ export default async function layout({ children }: { children: React.ReactNode }
   const session = await auth();
   return (
     <div className="flex bg-[#151c2c] text-white">
-      {JSON.stringify(session)}
+      {/* {JSON.stringify(session)} */}
       <div className="hidden md:flex bg-[#182237] p-[20px]  text-white min-h-screen shadow-sm overflow-auto">
         <Sildebar />
       </div>
-      
+
       <div className="flex-[4] m-2">
         <Navbar />
         <form action={async () => {

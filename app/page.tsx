@@ -5,8 +5,8 @@ export default function Home() {
     <>
       <Navbarhome />
       <main className="flex  flex-col items-center justify-center h-screen w-[100vw] bg-sky-400">
-        vivek
-      </main >
+        hello main
+      </main>
     </>
   )
 }
